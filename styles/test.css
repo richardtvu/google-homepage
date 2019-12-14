@@ -3,32 +3,22 @@
 body {
     display: block;
     position: relative;
-    background: whitesmoke;
+    background: white;
     width: 100%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px; 
 }
 
 h1 {
     font-size: 2em;
-    font-variant: small-caps;
 }
 
 h2 {
     font-size: 1.5em;
 }
 
-.top { 
-    display: block; 
-    max-width: 750px; /* Set the maximum width that an element will take up */ 
-    margin: 0 auto;  /* Center the element within the page */ 
-    background-color: red; 
-    border: 5px solid black; 
-    position: relative;  
-    clear: both; 
-}
 
 /* Put the left section on the left and identify it with a border 
 .left {
@@ -65,26 +55,18 @@ nav #right, footer #right {
 }
 
 /* Create navigation boxes from the unordered list items */ 
-ul {
-    border-style: dashed;
-    border-color: orange; 
-    border-width: 1px;
-
-}
 
 li {
     width: 100px; 
     text-align: center; 
-    border-color: red; 
     display: inline;
-    padding: 20px; 
+    padding: 5px; 
 
 }
 
 /* Style the navigation elements */ 
 li a {
-    color: green; ; 
-    margin: 20px 0; 
+    color: #363232; ; 
     text-decoration: none;
 }
 
