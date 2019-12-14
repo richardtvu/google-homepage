@@ -21,12 +21,19 @@ h2 {
 
 form { 
     background-color: white; 
-    border: 1px solid grey;  
+    border: 1px dashed burlywood;  
     clear: both;
-    margin: 0 auto;  
-    width: 90%
-}
+    margin: 0 auto;
+    margin-bottom: 20px;   
+    width: 90%;
+    height: 500px; 
+}       
 
+/* Center the Google logo */
+#logo {
+    padding-top: 125px; 
+    padding-left: 40%;
+}
 /* Style the navigation and footer bar  */
 nav #left, footer #left {
     float: left; 
