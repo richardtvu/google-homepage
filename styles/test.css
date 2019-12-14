@@ -19,31 +19,12 @@ h2 {
     font-size: 1.5em;
 }
 
-
-/* Put the left section on the left and identify it with a border 
-.left {
-    float: left;
-    max-width: 400px; 
-    margin: 0 auto;  
-    border: 5px dashed green; 
-    padding: 40px; 
-
-} */
-
-}
-
 form { 
-    background-color: orange; 
-    border: 5px solid saddlebrown; 
+    background-color: white; 
+    border: 1px solid grey;  
     clear: both;
     margin: 0 auto;  
     width: 90%
-}
-
-
-form  #logo {
-    width: auto;
-
 }
 
 /* Style the navigation and footer bar  */
