@@ -40,11 +40,6 @@ h2 {
 
 } */
 
-nav #left, footer #left {
-    float: left; 
-}
-nav #right, footer #right {
-    float: right; 
 }
 
 form { 
@@ -60,12 +55,39 @@ form  #logo {
     width: auto;
 
 }
-/*
-<h2>A form that "goes nowhere".</h2>
-<img id="logo" src="images/logo.png" alt="Google's Logo">
-<br>
-<img src="images/magnifying-glass.png" alt="magnifying-glass" height="20px" width="20px">
-<input type="search" id="google-search"> <br>
-<button>Google Search</button> <button>I'm Feeling Lucky</button>
 
-*?
+/* Style the navigation and footer bar  */
+nav #left, footer #left {
+    float: left; 
+}
+nav #right, footer #right {
+    float: right; 
+}
+
+/* Create navigation boxes from the unordered list items */ 
+ul {
+    border-style: dashed;
+    border-color: orange; 
+    border-width: 1px;
+
+}
+
+li {
+    width: 100px; 
+    text-align: center; 
+    border-color: red; 
+    display: inline;
+    padding: 20px; 
+
+}
+
+/* Style the navigation elements */ 
+li a {
+    color: green; ; 
+    margin: 20px 0; 
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
