@@ -8,7 +8,7 @@ body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin: 0px; 
+    margin: 0px;
 }
 
 h1 {
@@ -19,42 +19,58 @@ h2 {
     font-size: 1.5em;
 }
 
-form { 
-    background-color: white; 
-    border: 1px dashed burlywood;  
+form {
+    background-color: white;
+    border: 1px dashed burlywood;
     clear: both;
     margin: 0 auto;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
     width: 90%;
-    height: 500px; 
-}       
+    height: 500px;
+}
 
 /* Center the Google logo */
 #logo {
-    padding-top: 125px; 
+    padding-top: 125px;
     padding-left: 40%;
 }
-/* Style the navigation and footer bar  */
-nav #left, footer #left {
-    float: left; 
-}
-nav #right, footer #right {
-    float: right; 
+
+/* Center the search bar */
+.search {
+    padding-left: 40%;
 }
 
-/* Create navigation boxes from the unordered list items */ 
+#google-search {
+    margin: 30px auto; 
+    padding: 15px 100px; 
+}
+
+
+/* Create navigation boxes from the unordered list items */
 
 li {
-    width: 100px; 
-    text-align: center; 
+    width: 100px;
+    text-align: center;
     display: inline;
-    padding: 5px; 
+    padding: 5px;
 
 }
 
-/* Style the navigation elements */ 
+/* Style the navigation and footer bar  */
+nav #left,
+footer #left {
+    float: left;
+}
+
+nav #right,
+footer #right {
+    float: right;
+}
+
+/* Style the navigation elements */
 li a {
-    color: #363232; ; 
+    color: #363232;
+    ;
     text-decoration: none;
 }
 
