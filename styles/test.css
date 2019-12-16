@@ -29,20 +29,18 @@ form {
     height: 500px;
 }
 
-/* Center the Google logo */
-#logo {
-    padding-top: 125px;
-    padding-left: 40%;
+form {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
 }
 
-/* Center the search bar */
-.search {
-    padding-left: 40%;
-}
-
-#google-search {
-    margin: 30px auto; 
-    padding: 15px 100px; 
+/* Style the navigation and footer bar  */
+nav, footer {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
 }
 
 
@@ -54,17 +52,6 @@ li {
     display: inline;
     padding: 5px;
 
-}
-
-/* Style the navigation and footer bar  */
-nav #left,
-footer #left {
-    float: left;
-}
-
-nav #right,
-footer #right {
-    float: right;
 }
 
 /* Style the navigation elements */
