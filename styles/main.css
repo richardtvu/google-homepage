@@ -1,37 +1,64 @@
 @import url("reset.css");
 
 body {
-    display: block; 
-    position: relative; 
-    width: 100%; 
-    height: 100%; 
-    background: gray; 
+    background: white;
+
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+}
+
+
+/* Style the navigation and footer bar  */
+nav,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+/* Create navigation boxes from the unordered list items */
+
+li {
+    width: 100px;
+    text-align: center;
+    display: inline;
+    padding: 5px;
 
 }
 
-/* Center the main elements */ 
-#center {
-    width: 600px; 
-    margin: 0 auto; 
-    background-color: #FF9500; 
-    padding: 40px; 
-    border: 5px solid black; 
+/* Style the navigation elements */
+li a {
+    color: #363232;
+    text-decoration: none;
 }
 
-
-#logo { 
-    background: magenta; 
-    border: dotted; 
-    margin: 0px 0px 40px 0px; 
-
-}
-
-#search {
-    border: dashed; 
-    width: 100%; 
-
-
-}
-#google-search {
-    width: 300px; 
+li a:hover {
+    text-decoration: underline;
 }
